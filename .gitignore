@@ -1,0 +1,79 @@
+# === 🔐 সেনসিটিভ ও এনভায়রনমেন্ট ফাইল ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+firebase-config-private.js
+
+# === 📦 Node.js / NPM ===
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# === 🔥 Firebase CLI ===
+.firebase/
+*.runtimeconfig.json
+debug-*
+firestore.indexes.json  # যদি ম্যানুয়ালি এডিট না করেন
+firestore.rules         # যদি কনসোল থেকে ম্যানেজ করেন
+
+# === 🌐 বিল্ড/ডিস্ট্রিবিউশন ফোল্ডার ===
+dist/
+build/
+.out/
+public/dist/
+*.map
+
+# === 💻 IDE / এডিটর ===
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# === 🗑️ টেম্পোরারি ও লগ ফাইল ===
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 🧪 টেস্টিং ও কোভারেজ ===
+coverage/
+.nyc_output/
+*.lcov
+
+# === 🌍 ব্রাউজার ও OS স্পেসিফিক ===
+# Safari
+*.safariextz
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# === 🚫 মিসলেনিয়াস ===
+# লোকাল ব্যাকআপ ফাইল
+*.bak
+*.swp
+*.swo
+*~
+
+# ডকুমেন্টেশন বা নোট (যদি পাবলিশ না করতে চান)
+private-notes.md
+TODO.local.md
